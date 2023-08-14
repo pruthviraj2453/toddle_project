@@ -1,0 +1,57 @@
+.btn-pink {
+  background-color: #d33852 !important;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white !important;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 60px !important;
+  margin-right: 5px;
+}
+
+.card-left {
+  width: 25%;
+  height: 80px;
+}
+
+.custom-dot-menu {
+  /* Custom styles for the dropdown button container (dots icon) */
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #ccc; /* Grey color for the dots icon */
+  font-size: 20px;
+}
+
+.dots-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.menu-icon {
+  /* Custom styles for the edit and delete icons in the menu items */
+  margin-right: 5px;
+}
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.menu-icon svg {
+  fill: #717171;
+}
+
+.dot-menu-dropdown-item.active,
+.dot-menu-dropdown-item:active {
+  color: #717171 !important;
+  background-color: none !important;
+}
+
+.active-board {
+  height: -webkit-fill-available;
+}
